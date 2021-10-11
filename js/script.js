@@ -88,3 +88,42 @@ $(function () {
         modal.style.display = "none";
     }
 });
+
+$(function () {
+    // Get the modal
+    var modal = document.getElementById('myModal1');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img1 = document.getElementById('myImg91');
+    img1.onclick = showImg;
+    var img2 = document.getElementById('myImg92');
+    img2.onclick = showImg;
+    var img3 = document.getElementById('myImg93');
+    img3.onclick = showImg;
+    var img4 = document.getElementById('myImg94');
+    img4.onclick = showImg;
+    var img5 = document.getElementById('myImg95');
+    img5.onclick = showImg;
+    var img6 = document.getElementById('myImg96');
+    img6.onclick = showImg;
+    var img7 = document.getElementById('myImg97');
+    img7.onclick = showImg;
+
+    var modalImg = document.getElementById("img02");
+    var captionText = document.getElementById("caption");
+
+    function showImg() {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+});
