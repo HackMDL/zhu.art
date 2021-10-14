@@ -8,10 +8,10 @@ html{
 	bottom: 30px;
 	right: 30px;
 	z-index: 1000;
-	width: 64px;
-	height: 85px;
-	background: url(../images/up.png) 30% 30% no-repeat;
-	border-radius: 10%;
+	width: 50px;
+	height: 50px;
+	background: url(../images/up.png)  no-repeat;
+	border-radius:100%;
 	opacity: 0.5;
 }
 #scroll_top:hover {
@@ -313,6 +313,7 @@ text-align: center;
 
 /* Style the Image Used to Trigger the Modal */
 .imgS {
+    background: rgba(255, 255, 255, 0.137);
     max-width: 980px; 
     max-height: 95vh;   
     cursor: pointer;
