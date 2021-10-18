@@ -3,11 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="slick/slick.min.js"></script>
     <script src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,32 +60,20 @@
                 <h3 class="section__suptitle">About me</h3>
                 <h2 class="section__title">Alvina Zhurat</h2>
                 <div class="section_slider">
-                    <div class="slider">
-                        <div class="slider__item">
-                            <img src="images/slider/9.jpg" width="1000" alt="">
-                        </div>
-                        <div class="slider__item">
-                            <img src="images/slider/2.jpg" width="1000" alt="">
-                        </div>
-                        <div class="slider__item">
-                            <img src="images/slider/3.jpg" width="1000" alt="">
-                        </div>
-                        <div class="slider__item">
-                            <img src="images/slider/4.jpg" width="1000" alt="">
-                        </div>
-                        <div class="slider__item">
-                            <img src="images/slider/5.jpg" width="1000" alt="">
-                        </div>
-                        <div class="slider__item">
-                            <img src="images/slider/6.jpg" width="1000" alt="">
-                        </div>
-                        <div class="slider__item">
-                            <img src="images/slider/7.jpg" width="1000" alt="">
-                        </div>
-                        <div class="slider__item">
-                            <img src="images/slider/8.jpg" width="1000" alt="">
-                        </div>
-                        
+                    <div id="slider">
+                        <ul id="slideWrap">
+                            <li><img src="images/slider/9.jpg" width="1000" alt=""></li>
+                            <li><img src="images/slider/1.jpg" width="1000" alt=""></li>
+                            <li><img src="images/slider/2.jpg" width="1000" alt=""></li>
+                            <li><img src="images/slider/3.jpg" width="1000" alt=""></li>
+                            <li><img src="images/slider/4.jpg" width="1000" alt=""></li>
+                            <li><img src="images/slider/5.jpg" width="1000" alt=""></li>
+                            <li><img src="images/slider/6.jpg" width="1000" alt=""></li>
+                            <li><img src="images/slider/7.jpg" width="1000" alt=""></li>
+                            <li><img src="images/slider/8.jpg" width="1000" alt=""></li>
+                        </ul>
+                        <a id="prev" href="#about">&#8810;</a>
+                        <a id="next" href="#about">&#8811;</a>
                     </div>
                 </div>
                 <div class="section__text">
@@ -196,8 +181,39 @@
                 <li><a class="buttons" href="https://www.instagram.com/alivi_zhu.art/?hl=ru">Instagram</a></li>
                 <li><a class="buttons" href="https://www.saatchiart.com/account/artworks/1401585">Saatchi Art</a></li>
                 <li><a class="buttons" href="https://www.etsy.com/shop/AliviZhuArt">Etsy</a></li>
-                <li><a class="buttons" href="#">Pinterest</a></li>
-                <li><a class="buttons" href="#">E-mail</a></li>
+                <li><a class="buttons" href="https://www.pinterest.com/alivizhu">Pinterest</a></li>
+                <li>
+                    <div class="site-section">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6" data-aos="fade-up">
+                                    <h3>Lets chat</h3>
+                                    <form action="https://formspree.io/f/mvovrvzn" method="POST">
+                                        <div class="row form-group">
+                                            <div class="col-md-12">
+                                                <label class="" for="email">Your email:</label>
+                                                <input type="email" id="email" name="E-mail" class="form-control input">
+                                            </div>
+                                        </div>
+
+                                        <div class="row form-group">
+                                            <div class="col-md-12">
+                                                <label class="" for="message">You message:</label>
+                                                <textarea name="Повідомлення" id="message" cols="28" rows="5"
+                                                    class="form-control input"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="row form-group">
+                                            <div class="col-md-12 buttons">
+                                                <button type="submit" class="button">Send
+                                                    !</button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                </li>
             </ul>
         </div>
     </section>
