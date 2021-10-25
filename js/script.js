@@ -99,6 +99,24 @@ $(function () {
     img6.onclick = showImg;
     var img7 = document.getElementById('myImg97');
     img7.onclick = showImg;
+    var img8 = document.getElementById('myImg98');
+    img8.onclick = showImg;
+    var img9 = document.getElementById('myImg99');
+    img9.onclick = showImg;
+    var img10 = document.getElementById('myImg100');
+    img10.onclick = showImg;
+    var img11 = document.getElementById('myImg110');
+    img11.onclick = showImg;
+    var img12 = document.getElementById('myImg120');
+    img12.onclick = showImg;
+    var img13 = document.getElementById('myImg130');
+    img13.onclick = showImg;
+    var img14 = document.getElementById('myImg140');
+    img14.onclick = showImg;
+    var img15 = document.getElementById('myImg150');
+    img15.onclick = showImg;
+    var img16 = document.getElementById('myImg160');
+    img16.onclick = showImg;
 
     var modalImg = document.getElementById("img02");
     var captionText = document.getElementById("caption");
